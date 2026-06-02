@@ -6,7 +6,6 @@
 <title>Empanadas El Chata</title>
 
 <style>
-
 *{
     margin:0;
     padding:0;
@@ -101,8 +100,17 @@ nav a:hover{
 }
 
 .card li{
-    margin-bottom:12px;
+    margin-bottom:20px;
     font-size:18px;
+}
+
+.card img{
+    width:100%;
+    max-width:250px;
+    display:block;
+    margin:10px auto;
+    border-radius:12px;
+    object-fit:cover;
 }
 
 .price{
@@ -145,11 +153,6 @@ nav a:hover{
     border-radius:12px;
     text-decoration:none;
     font-weight:bold;
-    transition:0.3s;
-}
-
-.whatsapp:hover{
-    background:#1ebd5a;
 }
 
 footer{
@@ -159,81 +162,85 @@ footer{
     color:#ccc;
     margin-top:40px;
 }
-
-@media(max-width:768px){
-
-    .section-title{
-        font-size:32px;
-    }
-
-}
-
 </style>
 </head>
 
 <body>
 
 <header>
-
-<img src="logo.jpeg" alt="Logo" class="logo">
-
+<img src="logo.JPEG" alt="Logo" class="logo">
 <p>Empanadas Gourmet hechas con pasión</p>
-
 </header>
 
 <nav>
-    <a href="#menu">Menú</a>
-    <a href="#ubicacion">Ubicación</a>
-    <a href="#horarios">Horarios</a>
-    <a href="#contacto">Contacto</a>
+<a href="#menu">Menú</a>
+<a href="#ubicacion">Ubicación</a>
+<a href="#horarios">Horarios</a>
+<a href="#contacto">Contacto</a>
 </nav>
 
 <section class="container" id="menu">
-
 <h2 class="section-title">Nuestro Menú</h2>
 
 <div class="grid">
 
 <div class="card">
 <h3>🥩 Carnes</h3>
-
 <ul>
 <li>
 <strong>La Deshilachada</strong><br>
 Empanada agridulce.
-</li><br>
+<img src="deshilachada.jpeg" alt="La Deshilachada">
+</li>
 
 <li>
-<strong>La Típica</strong><br>
-Disponible con o sin aceitunas.
-</li><br>
+<strong>La Típica</strong>
+<img src="tipica.jpeg" alt="La Típica">
+</li>
 
-<li>Criolla</li><br>
+<li>
+<strong>Criolla</strong>
+<img src="criolla.jpeg" alt="Criolla">
+</li>
 
-<li>Sabrosona</li>
-</ul>s
+<li><strong>Sabrosona</strong></li>
+</ul>
+<div class="price">$60 c/u</div>
+</div>
+
 <div class="card">
 <h3>🥬 Vegetarianas</h3>
-
 <ul>
-<li>Capresse</li>
-<li>La Verde</li>
-<li>Sol de Campo</li>
-<li>Verduras al Wok</li>
-</ul>
+<li>
+<strong>Capresse</strong>
+<img src="capresee.jpeg" alt="Capresse">
+</li>
 
+<li>
+<strong>La Verde</strong>
+<img src="verde.jpeg" alt="La Verde">
+</li>
+
+<li><strong>Sol de Campo</strong></li>
+</ul>
 <div class="price">$60 c/u</div>
 </div>
 
 <div class="card">
 <h3>🧀 Quesos y Compañía</h3>
-
 <ul>
-<li>Queso & Panceta</li>
-<li>Queso & Cebolla</li>
-<li>La del Chata (J&Q)</li>
-</ul>
+<li>
+<strong>Queso & Panceta</strong>
+<img src="quesoypanceta.jpeg" alt="Queso y Panceta">
+</li>
 
+<li><strong>Queso & Cebolla</strong></li>
+
+<li>
+<strong>Jamón y Queso</strong>
+<img src="jamonyqueso.jpeg" alt="Jamón y Queso">
+</li>
+</ul>
 <div class="price">$60 c/u</div>
 </div>
 
@@ -241,36 +248,21 @@ Disponible con o sin aceitunas.
 </section>
 
 <section class="container" id="ubicacion">
-
 <h2 class="section-title">Ubicación</h2>
-
 <div class="info-section">
-
 <div class="info-box">
 <h3>📍 Local</h3>
-
-<p>
-Nos encontramos al lado de la estación de policía de Ciudad del Carmen.
-</p>
-
+<p>Nos encontramos al lado de la estación de policía de Ciudad del Carmen.</p>
 </div>
-
 </div>
-
 </section>
 
 <section class="container" id="horarios">
-
 <h2 class="section-title">Horarios</h2>
-
 <div class="info-section">
-
 <div class="info-box">
-
 <h3>🕒 Atención</h3>
-
 <p>
-
 <strong>Lunes a Miércoles</strong><br>
 9:00 a 14:30<br>
 16:30 a 21:30<br><br>
@@ -282,25 +274,16 @@ Nos encontramos al lado de la estación de policía de Ciudad del Carmen.
 <strong>Viernes y Sábado</strong><br>
 9:00 a 14:30<br>
 17:00 a 00:00 hs
-
 </p>
-
 </div>
-
 </div>
-
 </section>
 
 <section class="container" id="contacto">
-
 <h2 class="section-title">Contacto</h2>
-
 <div class="info-section">
-
 <div class="info-box">
-
 <h3>📞 Pedidos</h3>
-
 <p>
 WhatsApp:<br>
 097 949 125
@@ -309,17 +292,12 @@ WhatsApp:<br>
 <a class="whatsapp" href="https://wa.me/59897949125" target="_blank">
 Hacer Pedido
 </a>
-
 </div>
-
 </div>
-
 </section>
 
 <footer>
-
 <p>© 2026 Empanadas El Chata - Todos los derechos reservados</p>
-
 </footer>
 
 </body>
